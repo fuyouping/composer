@@ -12,12 +12,6 @@
             "email": "243159699@qq.com"
         }
     ],
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
-    },
     "autoload": {
         "classmap": [
             "thrift",
