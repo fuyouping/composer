@@ -1,0 +1,32 @@
+{
+    "name": "huayu/zkt_interface",
+    "description": "java interface",
+    "type": "library",
+    "require": {
+        "apache/thrift": "^0.13.0"
+    },
+    "authors": [
+        {
+            "name": "hyfyp",
+            "email": "243159699@qq.com"
+        }
+    ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "thrift",
+            "src"
+        ],
+        "psr-4": {
+            "Thrift\\":"vendor/apache/thrift/lib/php/lib",
+            "Huayu\\":"src"
+        },
+        "files": [
+        ]
+    }
+}
