@@ -1,0 +1,1 @@
+D:\thrift\thrift.exe -out ./thrift --gen php ZktService.thrift
