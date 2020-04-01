@@ -2,6 +2,7 @@
     "name": "huayu/zkt_interface",
     "description": "java interface",
     "type": "library",
+    "license": "No License",
     "require": {
         "apache/thrift": "^0.13.0"
     },
